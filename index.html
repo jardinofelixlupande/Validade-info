@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jarvis</title>
+  </head>
+  <body>
+    <header class="container-login">
+      <h1 style="text-align: center">
+        Bem vindo ao projecto <span>Jarvis</span>
+      </h1>
+      <h2 id="attempts-message" style="color: red; display: none"></h2>
+
+      <!--Input of email id: email-->
+      <section>
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" placeholder="Digite seu email" /><br />
+        <span class="erro" id="error-message-email"></span>
+        <br />
+      </section>
+
+      <!--Input of password id: password-->
+      <section>
+        <label for="password">Password:</label><br />
+        <input
+          type="password"
+          id="password"
+          placeholder="Digite sua senha"
+        /><br /><span class="erro" id="error-message-password"></span> <br />
+      </section>
+      <button id="login-btn" onclick="login()">Login</button>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>

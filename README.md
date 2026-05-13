@@ -1,6 +1,6 @@
 # 🚀 Validate Info
 
-> Projecto de validação de login
+> Projecto de validate login
 
 ---
 
